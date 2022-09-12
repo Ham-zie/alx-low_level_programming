@@ -1,21 +1,24 @@
-#include <stdio.h>
-
-void main()
-
+#include <stdio.h> 
+ /** 
+  * main - main block 
+  * Description:  prints the alphabet in lowercase, 
+  * and then in uppercase, followed by a new line. 
+  * Return: 0 
+  */
+int main(void) 
+{ 
+char c = 'a'; 
+while (c <= 'z') 
 {
-
-	        int ch;
-
-		        clrscr();
-
-			        printf(“Print all uppercase letters followed by all lowercase letters on the next line :\n”);
-
-				        /* print uppercase letters */
-
-				        for (ch= ‘A’; ch<= ‘Z’; ch++)
-putchar(ch);
-putchar (‘\n’ ) ;
-						                  /* print lowercase letters */
-						                  for (ch= ‘a’; ch<= ‘z’; ch++)									                    putchar(ch);								            putchar (‘\n’);
-getch();
+putchar(c); 
+c++; 
+} 
+c = 'A'; 
+while (c <= 'Z') 
+{
+putchar(c); 
+c++; 
+}
+putchar('\n'); 
+return (0);
 }
