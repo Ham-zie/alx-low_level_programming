@@ -1,21 +1,24 @@
-#include <stdio.h> 
- /** 
-  *   * main - main block 
-  *    * Description: Get a random number and check its last digit, compare it with 5 
-  *     * Return: 0 
-  *      */ 
- int main(void) 
-	 { 
-		          char c = 'a'; 
-		    
-		           while (c <= 'z') 
-			            { 
-				                     if (c != 'e' && c != 'q') 
-					                      { 
-						                               putchar(c); 
-	       					                       } 
-c++; 
-} 
-putchar('\n');
-return (0); 
+#include <stdio.h>
+ /*
+  *main- This is where our codeing starts
+  *@void-means our main has no argument
+  *Return: zero
+  */
+int main(void)
+{
+	/*
+	 *Define our char ch
+	 */
+	char ch;
+
+	/*
+	 * while loop
+	 */
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+		if (ch != 'q' && ch != 'c')
+			putchar(ch);
+	}
+	putchar('\n');
+	return (0);
 }
