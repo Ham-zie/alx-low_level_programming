@@ -1,7 +1,8 @@
 #include <stdio.h>
- /*
+ /**
   *main- This is where our codeing starts
-  *@void-means our main has no argument
+  *Description: Get list of alphabets with no q and e
+  *@void- means our main has no argument
   *Return: zero
   */
 int main(void)
@@ -12,11 +13,11 @@ int main(void)
 	char ch;
 
 	/*
-	 * while loop
+	 * for loop
 	 */
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		if (ch != 'q' && ch != 'c')
+		if (ch != 'q' && ch != 'e')
 			putchar(ch);
 	}
 	putchar('\n');
