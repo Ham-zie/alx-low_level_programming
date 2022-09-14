@@ -1,19 +1,23 @@
 /*
  * This program prints _putchar on a newline
  */
-#include <stdio.h>
+#include "stdio.h"
 /**
- * main- Entry code
+ * main- Entry point
  * @void- means no argument
  * Return: zero
  */
 int main(void)
 {
-	char i = "_putchar";
+	char *i = "Hamzie";
 	/*
 	 * statement to print
 	 */
-	putchar(i);
+	while (*i)
+	{
+		putchar(*i);
+		i++;
+	}
 	/*
 	 * Printing a newline
 	 */
