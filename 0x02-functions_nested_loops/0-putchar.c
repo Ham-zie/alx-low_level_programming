@@ -1,7 +1,7 @@
 /*
  * This program prints _putchar on a newline
  */
-#include "stdio.h"
+#include <stdio.h>
 /**
  * main- Entry point
  * @void- means no argument
@@ -9,18 +9,18 @@
  */
 int main(void)
 {
-	char *i = "Hamzie";
+	char *sh = "_putchar";
 	/*
 	 * statement to print
 	 */
-	while (*i)
+	while (*sh)
 	{
-		putchar(*i);
-		i++;
+		_putchar(*sh);
+		sh++;
 	}
 	/*
 	 * Printing a newline
 	 */
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
