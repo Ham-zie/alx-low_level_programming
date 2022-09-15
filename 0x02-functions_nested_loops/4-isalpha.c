@@ -1,7 +1,7 @@
-#include <main.h>
+#include "main.h"
 /**
  * main - Entry point
- * _isalpha - a function that checks for alphabetic character
+ * Description:_isalpha - a function that checks for alphabetic character
  * @void- No argument
  * @c: single letter input
  * Return: 1 if c is better (lower or uppercase), 0 otherwise
