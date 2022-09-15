@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <main.h>
+#include "main.h"
 /**
  * times_table - a function that prints the 9 times table, starting with 0
  * rone = row, cone = column, d = digitsa of current result
