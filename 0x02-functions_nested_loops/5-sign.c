@@ -3,8 +3,8 @@
 /**
  * Description: Print_sign - a function that prints the sign of a number
  * main - Entry code
- * @void - Means no argument
- * Return: zero
+ * @n - number input
+ * Return: 1 prints '+' if n > 0, 0 prints '0' if n = 0, -1 prints '-' if
  */
 int print_sign(int n)
 {
