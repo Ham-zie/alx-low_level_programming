@@ -1,6 +1,4 @@
-#include <stdio.h>
-#include "process.h"
-using namespace std;
+#include "main.h"
 /**
  * print_alphabet - a function that prints the alphabet, in lowercase
  * @void - means no argument
