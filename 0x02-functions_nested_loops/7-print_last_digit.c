@@ -1,7 +1,8 @@
 #include "holberton.h"
 #include "main.h"
 /**
- * print_last_digit - a function that prints the last digit of a number
+ * Description: print_last_digit - a function that prints the last
+ *digit of a number
  * @nld: number`s las digit result
  * Return: value of the last digit
  */
