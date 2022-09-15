@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * Description: Print_sign - a function that prints the sign of a number
  * main - Entry code
