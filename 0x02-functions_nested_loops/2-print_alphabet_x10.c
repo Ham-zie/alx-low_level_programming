@@ -1,4 +1,4 @@
-#include "stdio.h"
+#include "main.h"
 /**
  * This program prints a function that prints x10 the alphabet
  * @void- means no argument
