@@ -1,4 +1,4 @@
-#include "stdio.h"
+#include "main.h"
 /**
  * Description: print_numbers - a function that prints the numbers, from 0 to 9
  * @void: no argument

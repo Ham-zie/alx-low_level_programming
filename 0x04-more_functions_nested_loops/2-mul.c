@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * Description: mul - a function that multipies two integers
  * @a: first input 
