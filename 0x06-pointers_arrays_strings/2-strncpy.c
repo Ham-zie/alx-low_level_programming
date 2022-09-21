@@ -3,8 +3,8 @@
  * Desrciption: _strncpy - copy a string
  * @dest: input value
  * @src: input value
- * @n: input value 
- * main: check the code 
+ * @n: input value
+ * main: check the code
  *
  * Return: dest
  */
